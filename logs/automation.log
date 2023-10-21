@@ -324,3 +324,12 @@
 22:46:12.110 [main] INFO  testScripts.LoginTests - Entered pwd as: kjlkjkl
 22:46:12.224 [main] INFO  testScripts.LoginTests - Clicked on login button
 22:46:13.340 [main] INFO  testScripts.LoginTests - Error text is * Incorrect username or password
+20:29:36.397 [main] INFO  testScripts.LoginTests - This is a login Test
+20:29:36.412 [main] INFO  testScripts.LoginTests - Testcase execution is starting
+20:29:36.627 [main] INFO  testScripts.LoginTests - Entered Username as: MOhan
+20:29:36.931 [main] INFO  testScripts.LoginTests - Entered pwd as: rahulshettyaca
+20:29:37.161 [main] INFO  testScripts.LoginTests - Clicked on login button
+20:29:38.506 [main] INFO  testScripts.LoginTests - Entered Username as: MOhan
+20:29:38.651 [main] INFO  testScripts.LoginTests - Entered pwd as: kjlkjkl
+20:29:38.741 [main] INFO  testScripts.LoginTests - Clicked on login button
+20:29:39.872 [main] INFO  testScripts.LoginTests - Error text is * Incorrect username or password
