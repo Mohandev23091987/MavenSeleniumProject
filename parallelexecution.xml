@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	
+	
+  <test name="Chrometests">
+	   <parameter name="browser" value="chrome"></parameter>
+	   
+	   <groups>
+		   <run>
+			   <include name="Regression"></include>
+			   <include name="Sanity"></include>
+			   <include name="Smoke"></include>
+		   </run>
+	   </groups>
+	   
+	   
+	   
+    <classes>
+      <class name="testScripts.HomeTests"/>
+      <class name="testScripts.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test  name="firefoxTest">
+		 <parameter name="browser" value="firefox"></parameter>
+		 
+		 	   <groups>
+		   <run>
+			   <include name="Regression"></include>
+			   <include name="Sanity"></include>
+		   </run>
+	   </groups>
+    <classes>
+      <class name="testScripts.HomeTests"/>
+      <class name="testScripts.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test  name="EdgeTests">
+		 <parameter name="browser" value="edge"></parameter>
+		 	   <groups>
+		   <run>
+			   <include name="Regression"></include>
+			   <exclude name="Sanity"></exclude>
+			   <exclude name="Smoke"></exclude>
+		   </run>
+	   </groups>
+    <classes>
+      <class name="testScripts.HomeTests"/>
+      <class name="testScripts.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
