@@ -23,7 +23,7 @@ import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
+//this is a basetest
 public class BaseTest {
 	
 	public static WebDriver driver;
