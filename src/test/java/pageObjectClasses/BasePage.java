@@ -14,4 +14,6 @@ public BasePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 
+//added new comment
+
 }
